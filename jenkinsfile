@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Docker Compose up ') { 
             steps {
-                sh '''whoami
-		echo usr=$USER'''
+                sh '''docker-compose up'''
             }
         }
 
