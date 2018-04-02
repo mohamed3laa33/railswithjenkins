@@ -34,4 +34,4 @@ services:
     links:
       - web
     ports:
-      - "8080:80"
+      - "9090:80"
